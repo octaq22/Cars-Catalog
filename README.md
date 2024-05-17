@@ -1,35 +1,31 @@
-# Cars Catalog
 
-The Cars Catalog is a web application designed to emulate a classified ads website, specifically tailored for car listings. It serves as a platform where users can create accounts, log in, and post advertisements for cars they wish to sell. With a user-friendly interface, the application offers seamless navigation and an intuitive experience. Additionally, the application incorporates a unique feature where car models are sourced from text files rather than a database, facilitating the use of list boxes for selection. This approach enhances flexibility and simplifies the process of managing car models within the application.
+F1 Race
+The F1 Race application is a Java-based program that simulates a Formula 1 race. It provides a graphical interface where users can observe cars racing on a track, complete with a semaphore indicating the start of the race. The application incorporates sound effects to enhance the racing experience and offers dynamic updates as the race progresses.
 
-## Key Features
+Key Features
+Graphical Interface: The application provides a visually appealing interface where users can observe cars racing on a track. Cars are represented by graphical icons moving horizontally to simulate movement.
 
-- **User Authentication:** Users are required to create an account and log in before posting advertisements, ensuring security and personalized experience.
-  
-- **Ad Posting:** Once logged in, users can easily create and publish advertisements for cars they intend to sell. The application provides fields for essential details such as car model, price, year, description, location, currency, and images.
-  
-- **Database Integration:** The application seamlessly integrates with a MySQL database to store user account information and advertisement listings. This ensures data persistence and scalability.
-  
-- **Image Upload:** Users have the ability to upload images of their cars along with the advertisement, enhancing the visual appeal and providing additional information to potential buyers.
-  
-- **Responsive Design:** The application is designed to be responsive, ensuring compatibility across various devices and screen sizes, offering a consistent experience to users regardless of the device they use to access it.
-  
-- **Dynamic Interface:** Utilizing technologies such as C#, MySQL, and ASP.NET, the Car Catalog offers a dynamic and interactive interface that facilitates smooth navigation and efficient data handling.
+Semaphore Control: A semaphore is used to signal the start of the race. Users can observe the semaphore changing colors, indicating the status of the race (red for stop, yellow for prepare, green for go).
 
-## Usage
+Sound Effects: Sound effects are integrated into the application to provide auditory feedback to users. The sounds include the starting signal and background race ambiance.
 
-- **User Registration:** New users can register for an account by providing basic information such as username, email, and password.
-  
-- **User Authentication:** After registration, users can log in to their accounts using their credentials.
-  
-- **Ad Posting:** Upon successful login, users can create new advertisements by filling out a form with details about the car they wish to sell. This includes information such as the car model, price, year, description, location, currency, and uploading images.
-  
-- **Advertisement Management:** Users can view, edit, or delete their own advertisements from their dashboard, providing flexibility and control over their listings.
-  
-- **Browsing Advertisements:** Visitors and registered users can browse through the advertisements posted by other users, filtering and searching based on various criteria such as car model, price range, and location.
+Dynamic Updates: As the race progresses, the application dynamically updates the positions of the cars on the track, providing a real-time racing experience.
 
-## Technologies Used
+Race Completion: Upon completion of the race, the application displays a message indicating the winning car, enhancing user engagement and providing closure to the racing experience.
 
-- C#
-- ASP.NET
-- MySQL
+Usage
+Starting the Race: Launch the application to start the race simulation. Observe the graphical interface to view cars racing on the track.
+
+Semaphore Control: Pay attention to the semaphore to understand the status of the race. Green indicates the race has started, while red indicates it has stopped.
+
+Sound Effects: Listen to the sound effects integrated into the application, including the starting signal and background race ambiance.
+
+Race Progression: Watch as the cars move dynamically on the track, providing a realistic racing experience. Track the progress of each car as it moves towards the finish line.
+
+Race Completion: After the race ends, observe the message displayed by the application indicating the winning car. Reflect on the race experience and enjoy the conclusion.
+
+Technologies Used
+Java
+Java Swing (for the graphical user interface)
+AudioSystem and Clip (for sound effects)
+Threading (for simulating multiple cars racing simultaneously)
